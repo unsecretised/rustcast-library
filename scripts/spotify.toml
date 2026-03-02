@@ -14,14 +14,14 @@ alias = "Prev Song"
 alias_lc = "prev"
 
 [[shells]]
-command = "/scripts/spotify/prev.sh"
+command = "/scripts/spotify/toggle_repeat.sh"
 icon_path = "/Applications/Spotify.app/Contents/Resources/AppIcon.icns"
-alias = "Prev Song"
-alias_lc = "prev"
+alias = "Toggle Repeat"
+alias_lc = "repeat"
 
 [[shells]]
 command = "/scripts/spotify/prev.sh"
 icon_path = "/Applications/Spotify.app/Contents/Resources/AppIcon.icns"
-alias = "Prev Song"
-alias_lc = "prev"
+alias = "Toggle Shuffle"
+alias_lc = "shuffle"
 
