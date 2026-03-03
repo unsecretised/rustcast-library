@@ -1,0 +1,33 @@
+
+# the sleep is because rustcast's focus return forces the focus back to the previously focussed app
+[[shells]]
+command = "sleep 0.1 && rift-cli execute workspace switch 1"
+# icon_path = ""
+alias = "Workspace 1"
+alias_lc = "workspace 1"
+
+# Add this for as many workspaces as you like!
+
+[[shells]]
+command = "sleep 0.1 && rift-cli execute workspace next"
+# icon_path = ""
+alias = "Next Workspace"
+alias_lc = "next"
+
+[[shells]]
+command = "sleep 0.1 && rift-cli execute workspace prev"
+# icon_path = ""
+alias = "Prev Workspace"
+alias_lc = "prev"
+
+[[shells]]
+command = "sleep 0.1 && rift-cli execute workspace prev"
+# icon_path = ""
+alias = "Prev Workspace"
+alias_lc = "prev"
+
+[[shells]]
+command = "rift-cli execute save-and-exit"
+# icon_path = ""
+alias = "Quit Rift"
+alias_lc = "quit"
