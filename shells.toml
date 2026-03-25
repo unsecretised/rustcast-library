@@ -3,3 +3,13 @@ command = "osascript -e 'tell application \"Finder\" to empty trash'"
 icon_path = "/System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/TrashIcon.icns"
 alias = "Empty Trash"
 alias_lc = "empty trash"
+
+[[shells]]
+command = "osascript -e 'tell application "Finder" to shut down'"
+alias = "Shut Down Mac"
+alias_lc = "shutdown"
+
+[[shells]]
+command = """osascript -e 'tell application "Finder" to eject (every disk whose ejectable is true)'"""
+alias = "Eject All"
+alias_lc = "eject"
