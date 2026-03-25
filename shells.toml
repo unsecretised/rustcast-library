@@ -5,7 +5,7 @@ alias = "Empty Trash"
 alias_lc = "empty trash"
 
 [[shells]]
-command = "osascript -e 'tell application "Finder" to shut down'"
+command = "osascript -e 'tell application \"Finder\" to shut down'"
 alias = "Shut Down Mac"
 alias_lc = "shutdown"
 
