@@ -1,0 +1,5 @@
+[[shells]]
+command = "osascript -e 'tell application \"Finder\" to empty trash'"
+icon_path = "/System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/TrashIcon.icns"
+alias = "Empty Trash"
+alias_lc = "empty trash"
